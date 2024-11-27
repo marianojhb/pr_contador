@@ -8,6 +8,7 @@
 
 <style>
   button {
+    position: relative;
     box-sizing: border-box;
     padding: 0px;
     margin: 0px;
@@ -15,6 +16,7 @@
     height: 150px;
     background-color: #ddd;
     cursor: pointer;
+    z-index: 5;
   }
 
   button:hover {
@@ -45,5 +47,4 @@
       opacity: 0.99;
     }
   }
-
 </style>
